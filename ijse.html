@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,23 +11,55 @@
             margin: 0;
         }
 
-        .header {  
-            background-color: aqua;
+        .header {
+            background-color: aliceblue;
             display: flex;
             padding: 10px 20px;
 
         }
-        .navbar>li{
+
+        .navbar>li {
             list-style-type: none;
             display: inline;
             margin-right: 10px;
             font-size: 20px;
         }
 
-        .navbar>li:hover{
+        .navbar>li:hover {
             cursor: pointer;
             color: red;
-           
+
+        }
+
+        .home-image {
+            background-image: url(assests/back.png);
+            height: 600px;
+            background-size: cover;
+            background-position: center;
+            position: relative;
+        }
+
+        .home-text {
+            width: 30%;
+            background-color: azure;
+            text-align: center;
+            position: absolute;
+            left: 40px;
+            top: 50px;
+            padding: 10px 25px;
+            border-radius: 20px;
+        }
+        .home-text>a{
+            text-decoration: none;
+            background-color: red;
+            color: aliceblue;
+            padding: 10px 20px;
+            border-radius: 10px;
+        }
+        .home-text>a:hover{
+            background-color: aliceblue;
+            color: red;
+            border: 1px solid black;
         }
     </style>
 </head>
@@ -42,6 +75,19 @@
                 <li>Contact Us</li>
                 <li>About Us</li>
             </ul>
+        </div>
+    </div>
+
+    <div class="body">
+        <div class="home-image">
+            <div class="home-text">
+                <h1>Welcome to IJSE</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque dicta quibusdam, vitae, at enim
+                    explicabo a asperiores obcaecati repudiandae vel, iusto autem impedit praesentium fuga velit
+                    consectetur ea odit tempore.
+                </p>
+                <a href="https://www.ijse.lk/" target="_blank">Visit IJSE</a>
+            </div>
         </div>
     </div>
 
