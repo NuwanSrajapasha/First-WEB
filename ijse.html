@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -49,17 +48,73 @@
             padding: 10px 25px;
             border-radius: 20px;
         }
-        .home-text>a{
+
+        .home-text>a {
             text-decoration: none;
             background-color: red;
             color: aliceblue;
             padding: 10px 20px;
             border-radius: 10px;
         }
-        .home-text>a:hover{
+
+        .home-text>a:hover {
             background-color: aliceblue;
             color: red;
             border: 1px solid black;
+        }
+
+        .content {
+            display: flex;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-inline: 20px;
+            /* right left*/
+            padding-block: 20px;
+            /*top bottom*/
+        }
+
+        .col-1 {
+            width: 65%;
+        }
+
+        .col-2 {
+            width: 35%;
+        }
+
+        @media(max-width :425px) {
+            .header {
+                display: block;
+                text-align: center;
+            }
+
+            .home-text {
+                width: auto;
+                right: 0;
+                margin-inline: 15px;
+                padding: 20px 20px;
+
+            }
+
+            .content {
+                display: block;
+            }
+
+            .col-1,
+            .col-2 {
+                width: auto;
+            }
+        }
+
+        @media(min-width:424px) and (max-width:768px) {
+            .header {
+                background-color: greenyellow;
+            }
+        }
+
+        @media(min-width:768px) {
+            .header {
+                background-color: red;
+            }
         }
     </style>
 </head>
@@ -87,6 +142,63 @@
                     consectetur ea odit tempore.
                 </p>
                 <a href="https://www.ijse.lk/" target="_blank">Visit IJSE</a>
+            </div>
+        </div>
+        <div class="content">
+            <div class="col-1">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis facilis debitis dignissimos ab
+                    molestiae, officiis eum eveniet ut. Consequuntur fugiat magnam reprehenderit. Illum dolorum ipsum
+                    architecto, modi provident soluta sequi.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa ab voluptate architecto inventore, ex
+                    magni animi ullam nesciunt dolor nostrum quod tempore minus similique molestias quaerat rem
+                    repudiandae fugiat. Quia!
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta exercitationem voluptatibus
+                    assumenda voluptas, recusandae modi fugit possimus repellendus dolorum quibusdam numquam at,
+                    laudantium vel ea odit vero cumque ullam eos.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, obcaecati! Quidem soluta possimus
+                    delectus ducimus! Accusantium doloremque rerum at unde quisquam fugit consectetur perferendis minima
+                    dolores, quidem exercitationem inventore ut.
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium beatae nisi commodi odit ab
+                    magni dolore nostrum neque suscipit nihil similique mollitia asperiores animi, ipsa dolorum
+                    inventore officiis vel quam!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit doloremque, ratione aliquid
+                    perspiciatis neque iste esse quam dolor eveniet. Qui, soluta rem! Earum sit molestiae ad ducimus,
+                    odit vitae minima!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam commodi totam nemo obcaecati
+                    consequuntur accusamus molestias voluptate omnis at in. Dolor odio voluptatibus sed odit sint
+                    tenetur, doloribus asperiores placeat!
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus officia dicta assumenda autem.
+                    Ipsam commodi porro officia quidem quasi nobis? Accusamus dignissimos nesciunt consequuntur. Sed
+                    suscipit nisi molestias quo expedita!
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, fuga hic. Quaerat quos,
+                    voluptatem necessitatibus ullam possimus dolorum adipisci eaque sunt illo doloremque assumenda,
+                    reprehenderit, et nemo? Voluptates, eaque aliquam!
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque, sint ex, veniam a veritatis
+                    placeat corporis tempore neque, explicabo quibusdam id nemo sunt provident vel rerum dolorum optio
+                    quisquam laboriosam.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum ipsam enim voluptatum omnis
+                    facilis voluptates quo quibusdam eum, fugit error itaque, deserunt corrupti aliquid explicabo!
+                    Ratione, delectus dolor? Laboriosam, sit.
+                </p>
+            </div>
+            <div class="col-2">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque voluptatum dolorem ipsam tempore.
+                    Facere dolores in consequatur. Ut placeat veniam corrupti, perferendis, unde dolorem eaque
+                    necessitatibus, ad possimus recusandae et.
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus atque rerum tenetur
+                    reiciendis, consectetur asperiores nesciunt voluptatem sapiente deleniti illum quos ipsam quibusdam
+                    eius, incidunt distinctio cumque ea, officia eum!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus modi nobis sed reiciendis
+                    veritatis illum doloribus, qui labore sit, architecto quisquam? Doloribus sint, maiores esse libero
+                    nobis impedit perferendis dolor.
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe ratione error, veniam minima ad ex
+                    expedita at reiciendis maiores tempore esse ut quisquam, libero quia ipsa blanditiis nesciunt
+                    eligendi quasi.
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate ullam ipsa facilis quibusdam,
+                    porro quisquam corrupti, culpa, adipisci animi similique inventore magnam repellat vero. Similique
+                    esse aliquid deserunt assumenda mollitia!
+
+                </p>
             </div>
         </div>
     </div>
