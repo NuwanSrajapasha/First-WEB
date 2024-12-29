@@ -53,8 +53,21 @@
         science=80;
 
         //comparision operators(< >)
-        console.log(maths<science);
-        console.log(maths>science);
+        console.log(maths<science);//true
+        console.log(maths>science);//false
+
+        //Logical operators(&&,||,!)
+        console.log(maths<science && maths>science);//false
+        console.log(maths<science && maths<science);//true
+
+        console.log(maths<science || maths>science);//true
+        console.log(maths<science || maths<science);//true
+
+        console.log(maths==80);//false 
+        console.log(!(maths==80));//true
+
+
+        
 
     </script>
 </body>
